@@ -13,8 +13,8 @@ from fastapi import FastAPI, HTTPException
 from groq import Groq
 import uvicorn
 
-from models import AgentRequest, AgentResponse
-from skill_loader import Skill, discover_skills
+from utils.models import AgentRequest, AgentResponse
+from utils.skill_loader import Skill, discover_skills
 
 
 load_dotenv()
