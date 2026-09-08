@@ -1,6 +1,6 @@
-# Chapter 1: FastAPI Joke Services & Skill-Based AI Agent
+# FastAPI Joke Services & Skill-Based AI Agent
 
-A comprehensive collection of **FastAPI** applications demonstrating API development from static responses to LLM integration and dynamic, skill-driven AI agents using **Groq**.
+Collection of **FastAPI** applications demonstrating API development from static responses to LLM integration and dynamic, skill-driven AI agents using **Groq**.
 
 ---
 
@@ -31,11 +31,12 @@ chapter_1/
 ├── 1_fast_ai.py              # Static joke service
 ├── 2_fast_ai_llm.py          # LLM joke generator (random & topic)
 ├── 3_fast_api_llm_skill.py   # Skill-based AI agent service
-├── models.py                 # Pydantic models (AgentRequest, AgentResponse)
-├── skill_loader.py           # Skill discovery and YAML parser
 ├── skills/                   # Directory containing specialized skills
 │   └── joke-writer/
 │       └── SKILL.md          # Joke writer skill definition & instructions
+├── utils/                    # Utilities for the project
+│   ├── models.py             # Pydantic models for the project
+│   └── skill_loader.py       # Skill discovery and YAML parser
 ├── pyproject.toml            # Project metadata & dependencies
 ├── README.md                 # Complete documentation
 ├── .env                      # Local environment configuration (ignored by git)
